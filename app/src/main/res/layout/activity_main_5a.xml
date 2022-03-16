@@ -38,8 +38,10 @@
 
         <Button
             android:id="@+id/donut"
-            android:layout_width="112dp"
-            android:layout_height="44dp"
+            android:layout_width="110dp"
+            android:layout_height="54dp"
+            android:background="#FFC107"
+            android:backgroundTint="#FFC107"
             android:text="Donut"
             android:textAllCaps="false"
             android:textStyle="bold"
@@ -53,21 +55,25 @@
         <Button
             android:id="@+id/pink"
             android:layout_width="110dp"
-            android:layout_height="44dp"
+            android:layout_height="54dp"
+            android:background="#FFC107"
+            android:backgroundTint="#FFC107"
             android:text="Pink Dounut"
             android:textAllCaps="false"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintHorizontal_bias="0.178"
             app:layout_constraintStart_toEndOf="@+id/donut"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/floating"
-            android:layout_width="85dp"
-            android:layout_height="44dp"
+            android:layout_width="110dp"
+            android:layout_height="54dp"
+            android:background="#FFC107"
+            android:backgroundTint="#FFC107"
             android:text="Floating"
             android:textAllCaps="false"
             android:textStyle="bold"
